@@ -87,12 +87,10 @@ RISE es una extensión a los Jupyter Notebooks que permite transformar
 <br>
 
 ### Jupyter Noteboook
+ Jul 31, 2021
+  5 min read
 
-:fontawesome-brands-python: FastPages
-:octicons-calendar-24: Jul 31, 2021
-:octicons-clock-24: 5 min read
-
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png"  width="90" height="90" align="left">](https://fralfaro.github.io/ds_blog/jupyter/2021/07/31/jupyter.html)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png"  width="90" height="90" align="left">](posts/2021/2021-07-31-jupyter.ipynb)
 Jupyter Notebook, es un entorno de trabajo interactivo que permite desarrollar código en Python.<br>
 [Continue reading ➔](posts/2021/2021-07-31-jupyter.ipynb)
 
