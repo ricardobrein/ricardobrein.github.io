@@ -86,7 +86,7 @@ RISE es una extensión a los Jupyter Notebooks que permite transformar
 [Continue reading ➔](posts/2021/2021-08-05-rise.ipynb)<br>
 <br>
 
-### Jupyter Noteboook
+### [Jupyter Noteboook](posts/2021/2021-07-31-jupyter.ipynb)
  Jul 31, 2021
   5 min read
 
