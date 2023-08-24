@@ -1,0 +1,80 @@
+site_name: Ricardo Breindembache Personal Website
+website_author: Ricardo Brein🧠
+site_description: >
+   Inteligencia Artificial - Machine Learning - Data Science - Big Data - Deep Learning - Self-Taught
+
+repo_name: Ricardobrein/ricardobrein.github.io
+repo_url: https://github.com/ricardobrein/ricardobrein.github.io
+repo_name: ricardobrein.github.io
+
+theme:
+  name: material
+  font:
+    text: Fira Sans
+    code: Ubuntu Mono
+  language: es
+  logo: images/yo.png
+  icon:
+    repo: fontawesome/brands/git-alt
+  palette:
+    - scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+  
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  # ... other extensions ...
+
+# Extra content
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ricardobrein
+      name: GitHub - RicardoBrein
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ricardo-breindembache/
+      name: LinkedIn - Ricardo Breindembache 
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<ricardobreindembache@gmail.com>
+      name: Email - Ricardo Breindembache
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@ricardobrein
+      name: Medium @Ricardobrein
+
+# Navigation menu
+nav:
+  - Hello👋: index.md
+  - About me.: about.md
+  - Tech Stack: stack.md
+  - Certifications:  about_me/certification.md
+  - Education:  about_me/education.md
+  - Blog:
+    - Posts: blog/index.md
+
+extra_css:
+  - docs/assets/custom.css
+
+# Plugins
+plugins:
+  - material/search
+  - tags 
+  - mkdocs-jupyter
+  - search
