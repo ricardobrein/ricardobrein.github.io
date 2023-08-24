@@ -1,6 +1,6 @@
-# Posts
+# _Posts_
 
-## 2022
+## <span style="color:red;">2022</span>
 
 ### Causal Impact
 :fontawesome-brands-python: Python
@@ -12,10 +12,11 @@
 [Continue reading ➔](posts/2022/2022-10-12-causal_impact.ipynb)
 
 ### Collaborative Filtering
-:fontawesome-brands-python: Python
-:octicons-calendar-24: Oct 12, 2022
-:octicons-clock-24: 5 min read
-
+---
+Python
+Oct 12, 2022
+5 min read
+---
 [<img src="https://cdn-icons-png.flaticon.com/512/4221/4221419.png"  width="90" height="90" align="left">](posts/2022/2022-10-12-implicit.ipynb)
 *User-based collaborative filtering* para realizar un mejor sistema de recomendación de películas. <br>
 [Continue reading ➔](posts/2022/2022-10-12-implicit.ipynb)
@@ -25,7 +26,7 @@
 :octicons-calendar-24: May 25, 2022
 :octicons-clock-24: 5 min read
 
-[<img src="https://www.outsystems.com/forge/DownloadResource.aspx?FileName=&ImageBinaryId=60719"  width="90" height="90" align="left">](https://medium.com/@fralfaro/qu%C3%A9-es-el-test-driven-development-7d45160a5a5a)
+[<img src="https://www.outsystems.com/forge/DownloadResource.aspx?FileName=&ImageBinaryId=60719"  width="90" height="90" align="left">]
 Cómo abordar el desarrollo de software para Data Science usando Test Driven Development. <br>
 [Continue reading ➔](posts/2022/2021-07-15-tdd.ipynb)
 
@@ -35,19 +36,19 @@ Cómo abordar el desarrollo de software para Data Science usando Test Driven Dev
 :octicons-calendar-24: Mar 16, 2022
 :octicons-clock-24: 5 min read
 
-[<img src="https://www.rust-lang.org/logos/rust-logo-512x512.png"  width="90" height="90" align="left">](https://fralfaro.github.io/ds_blog/python/2022/03/16/polars.html)
+[<img src="https://www.rust-lang.org/logos/rust-logo-512x512.png"  width="90" height="90" align="left">](posts/2022/2022-03-16-polars.ipynb)
 Polars es una librería de DataFrames increíblemente rápida y eficiente  implementada en Rust.<br>
 [Continue reading ➔](posts/2022/2022-03-16-polars.ipynb)
 
 
-## 2021
+## <span style="color:red;">2021</span>
 
 ### Impact on Digital Learning
 :fontawesome-brands-kaggle: Kaggle
 :octicons-calendar-24: Aug 31, 2021
 :octicons-clock-24: 10 min read
 
-[<img src="https://icon-library.com/images/icon-learning/icon-learning-16.jpg"  width="90" height="90" align="left">](https://www.kaggle.com/code/faamds/basic-analysis-impact-on-digital-learning)
+[<img src="https://icon-library.com/images/icon-learning/icon-learning-16.jpg"  width="90" height="90" align="left">](posts/2021/basic-analysis-impact-on-digital-learning.ipynb)
 Competition Solution:  LearnPlatform  COVID-19 Impact on Digital Learning proposed by Kaggle.<br>
 [Continue reading ➔](posts/2021/basic-analysis-impact-on-digital-learning.ipynb)
 <br><br>
