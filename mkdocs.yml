@@ -61,7 +61,7 @@ extra:
 
 # Navigation menu
 nav:
-  - Hello👋: index.md
+  - Hola 👋, soy Ricardo: index.md
   - About me.: about.md
   - Tech Stack: stack.md
   - Certifications:  about_me/certification.md
