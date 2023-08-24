@@ -61,11 +61,11 @@ extra:
 
 # Navigation menu
 nav:
-  - Hola 👋, soy Ricardo: index.md
+  - Hola 👋: index.md
   - About me.: about.md
   - Tech Stack: stack.md
-  - Certifications:  about_me/certification.md
-  - Education:  about_me/education.md
+  - Certificaciones: certifications.md
+  - Projects:  projects.md
   - Blog:
     - Posts: blog/index.md
 
