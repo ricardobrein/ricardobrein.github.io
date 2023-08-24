@@ -67,7 +67,7 @@ nav:
   - Certificaciones: certifications.md
   - Projects: projects.md
   - Blog:
-    - blog/index.md
+    - docs/blog/index.md
 
 extra_css:
   - docs/assets/custom.css
