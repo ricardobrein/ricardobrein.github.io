@@ -10,7 +10,7 @@ repo_name: ricardobrein.github.io
 theme:
   name: material
   font:
-    text: Fira Sans
+    text: Roboto
     code: Ubuntu Mono
   language: es
   logo: images/yo.png
