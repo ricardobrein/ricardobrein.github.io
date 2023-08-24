@@ -65,9 +65,9 @@ nav:
   - About me.: about.md
   - Tech Stack: stack.md
   - Certificaciones: certifications.md
-  - Projects:  projects.md
+  - Projects: projects.md
   - Blog:
-    - Posts: blog/index.md
+    - blog/index.md
 
 extra_css:
   - docs/assets/custom.css
