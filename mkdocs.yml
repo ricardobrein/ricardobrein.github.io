@@ -1,5 +1,6 @@
-site_name: Ricardo Breindembache Personal Website
-website_author: Ricardo Brein🧠
+site_name: Ricardo Breindembache
+site_url: https://ricardobrein.github.io
+site_author: Ricardo Brein🧠
 site_description: >
    Inteligencia Artificial - Machine Learning - Data Science - Big Data - Deep Learning - Self-Taught
 
@@ -10,8 +11,8 @@ repo_name: ricardobrein.github.io
 theme:
   name: material
   font:
-    text: Roboto
-    code: Ubuntu Mono
+    text: apple-system
+    code: Roboto Mono
   language: es
   logo: images/yo.png
   icon:
@@ -22,16 +23,16 @@ theme:
       accent: indigo
       toggle:
         icon: material/weather-night
-        name: Switch to dark mode
+        name: dark
     - scheme: slate
       primary: black
       accent: indigo
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
+        name: light
   features:
-    - navigation.tabs.sticky
     - navigation.instant
+    - navigation.tabs.sticky
     - navigation.tracking
     - navigation.top
     - navigation.tabs
@@ -41,6 +42,7 @@ markdown_extensions:
   - md_in_html
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.emoji:
   # ... other extensions ...
 
 # Extra content
@@ -61,20 +63,18 @@ extra:
 
 # Navigation menu
 nav:
-  - Hola 👋: index.md
+  - Home👋: index.md
   - About me.: about.md
   - Tech Stack: stack.md
   - Certificaciones: certifications.md
   - Projects: projects.md
-  - Blog:
-    - blog/index.md
+  - Blog: https://ricardobrein.hashnode.dev
 
 extra_css:
   - docs/assets/custom.css
 
 # Plugins
 plugins:
-  - material/search
   - tags 
   - mkdocs-jupyter
   - search

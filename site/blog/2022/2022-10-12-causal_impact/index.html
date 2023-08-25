@@ -36,8 +36,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Fira Sans";--md-code-font:"Ubuntu Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Ubuntu Mono"}</style>
       
     
     
@@ -431,7 +431,7 @@
   
     <li class="md-nav__item">
       <a href="../../" class="md-nav__link">
-        Posts
+        Posts con código de práctica
       </a>
     </li>
   
@@ -473,13 +473,6 @@
         <li class="md-nav__item">
   <a href="#introduccion" class="md-nav__link">
     Introducción
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#importar-librerias" class="md-nav__link">
-    Importar librerías
   </a>
   
 </li>
@@ -1601,13 +1594,30 @@ Licensed under the Apache License, Version 2.0.
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4afb1b94">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<style>
+    /* Ajustar el tamaño de fuente para todo el notebook */
+    body {
+        font-size: 16px;
+    }
+</style>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ab9fc1b5">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="importar-librerias">Importar librerías<a class="anchor-link" href="#importar-librerias">¶</a></h2><p>En primer lugar, instalemos <code>pycausalimpac</code> para el análisis causal de series de tiempo.</p>
+<p><font size="20">Importar librerías</font></p>
+<p>En primer lugar, instalemos <code>pycausalimpac</code> para el análisis causal de series de tiempo.</p>
 </div>
 </div>
 </div>
@@ -1663,7 +1673,7 @@ Licensed under the Apache License, Version 2.0.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-2">
@@ -1676,8 +1686,10 @@ Licensed under the Apache License, Version 2.0.
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># Data processing</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="o">&lt;</span><span class="n">font</span> <span class="n">size</span><span class="o">=</span><span class="s2">"2"</span><span class="o">&gt;</span>
+
+<span class="c1"># Data processing</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pdm</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
 
@@ -1690,9 +1702,13 @@ Licensed under the Apache License, Version 2.0.
 
 <span class="c1"># Causal impact</span>
 <span class="kn">from</span> <span class="nn">causalimpact</span> <span class="kn">import</span> <span class="n">CausalImpact</span>
+
+<span class="o">&lt;/</span><span class="n">font</span><span class="o">&gt;</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-2"># Data processing
-import pandas as pd
+<div class="clipboard-copy-txt" id="cell-2"><font size="2">
+
+# Data processing
+import pandas as pdm
 import numpy as np
 from datetime import datetime
 
@@ -1704,7 +1720,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Causal impact
-from causalimpact import CausalImpact</div>
+from causalimpact import CausalImpact
+
+</font></div>
 </div>
 </div>
 </div>

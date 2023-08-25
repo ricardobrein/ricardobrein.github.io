@@ -24,7 +24,7 @@ May 25, 2022 |
 
 [<img src="https://www.outsystems.com/forge/DownloadResource.aspx?FileName=&ImageBinaryId=60719"  width="90" height="90" align="left">]
 Cómo abordar el desarrollo de software para Data Science usando Test Driven Development. <br>
-[Continue reading ➔](posts/2022/2021-07-15-tdd.ipynb)
+[Continue reading ➔](2022/2021-07-15-tdd.ipynb)
 
 ---
 
