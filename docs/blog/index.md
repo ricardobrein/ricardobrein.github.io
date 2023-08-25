@@ -1,4 +1,17 @@
-# _Posts con código de práctica_
+<a href="/ruta/a/tu/entrada" class="docs/blog/index.md"></a>
+# Posts
+
+# <span style="color:red;">**2023**</span>
+
+## [**State of the art of machine learning systems**](2023/hola.md)
+
+[<img src="https://cdn3.iconfinder.com/data/icons/tiny-charts-and-graphs/32/flat_line_graph-512.png"  width="90" height="150" align="left">](2023/hola.md)
+
+*SOTA* de los sistemas de machine learning, haremos un análisis de la actualidad relacionada con el ml
+
+[Continue Reading ➔](2023/hola.md)
+
+---
 
 # <span style="color:red;">**2022**</span>
 
@@ -10,11 +23,11 @@
 
 ---
 
-## **Collaborative Filtering**
+[## **Collaborative Filtering**
 
 [<img src="https://cdn-icons-png.flaticon.com/512/4221/4221419.png"  width="90" height="90" align="left">](2022/2022-10-12-implicit.ipynb)
 *User-based collaborative filtering* para realizar un mejor sistema de recomendación de películas. <br>
-[Continue reading ➔](2022/2022-10-12-implicit.ipynb)
+[Continue reading ➔](2022/2022-10-12-implicit.ipynb)](2022/2022-10-12-implicit.ipynb)
 
 --- 
 

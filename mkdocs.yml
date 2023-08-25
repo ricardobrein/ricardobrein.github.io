@@ -5,41 +5,62 @@ site_description: >
    Inteligencia Artificial - Machine Learning - Data Science - Big Data - Deep Learning - Self-Taught
 
 repo_name: Ricardobrein/ricardobrein.github.io
-repo_url: https://github.com/ricardobrein/ricardobrein.github.io
+repo_url: https://github.com/ricardobrein
 repo_name: ricardobrein.github.io
 
 theme:
   name: material
+  custom_dir: docs/assets
   font:
-    text: apple-system
-    code: Roboto Mono
+    text: Fira Sans
+    code: Roboto mono
   language: es
   logo: images/yo.png
   icon:
     repo: fontawesome/brands/git-alt
   palette:
     - scheme: default
-      primary: black
-      accent: indigo
+      primary: amber
+      accent: light blue
       toggle:
         icon: material/weather-night
         name: dark
     - scheme: slate
       primary: black
-      accent: indigo
+      accent: cyan
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-4
         name: light
   features:
     - navigation.instant
     - navigation.tabs.sticky
     - navigation.tracking
-    - navigation.top
     - navigation.tabs
-  
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - content.tabs.link
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.code.annotations
 markdown_extensions:
+  - toc:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - attr_list
   - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.emoji:
@@ -60,21 +81,26 @@ extra:
     - icon: fontawesome/brands/medium
       link: https://medium.com/@ricardobrein
       name: Medium @Ricardobrein
+    - icon: fontawesome/brands/hashnode
+      link: ricardobrein.hashnode.dev
+      name: hashnode Blog
 
 # Navigation menu
 nav:
-  - Home👋: index.md
+  - Hola👋: index.md
   - About me.: about.md
-  - Tech Stack: stack.md
-  - Certificaciones: certifications.md
-  - Projects: projects.md
-  - Blog: https://ricardobrein.hashnode.dev
+  - Tech Stack: stack.md { .md-button }
+  - Certificaciones: certifications.md { .md-button }
+  - Projects: projects.md { .md-button }
+  - Blog: 
+    - blog/index.md
 
 extra_css:
   - docs/assets/custom.css
 
 # Plugins
 plugins:
-  - tags 
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+      theme: dark
+  - tags
   - search

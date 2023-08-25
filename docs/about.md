@@ -1,5 +1,6 @@
 # Acerca de Mi
 
+**Ricardo,** es un desarrollador Junior de IA, Machine learning y big data. Le gusta  aprender de manera autodidacta y hablar de sí mismo en tercera persona.
 
 ## Interests
 
