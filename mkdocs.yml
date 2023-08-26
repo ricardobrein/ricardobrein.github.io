@@ -10,14 +10,15 @@ repo_name: ricardobrein.github.io
 
 theme:
   name: material
-  custom_dir: docs/assets
+  custom_dir: docs/assets/
   font:
     text: Fira Sans
     code: Roboto mono
   language: es
   logo: images/yo.png
   icon:
-    repo: fontawesome/brands/git-alt
+    repo: fontawesome/brands/github
+    book: fontawesome/solid/book
   palette:
     - scheme: default
       primary: amber
