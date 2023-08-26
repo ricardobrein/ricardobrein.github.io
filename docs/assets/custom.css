@@ -9,3 +9,7 @@
     z-index: 1;
     opacity: 0; /* Si deseas ocultar el enlace, pero sigue siendo clickeable */
 }
+/* custom.css */
+body {
+    zoom: 110%;
+}
