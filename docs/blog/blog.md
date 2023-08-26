@@ -2,8 +2,8 @@
 
 # Posts
 
-??? tip "Tip: Si el código te parece demasiado pequeño..."
-    Puedes hacer _`zoom`_ a tu navegador para una mejor experiencia visual
+???+ tip "Tip: Si el código te parece demasiado pequeño..."
+    Te sugiero hacerle _`zoom`_ hasta 125%-150% a tu navegador para una mejor experiencia visual
 
 # <span style="color:red;">**2023**</span>
 
