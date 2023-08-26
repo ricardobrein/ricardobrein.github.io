@@ -1,4 +1,4 @@
-![Stack](images/stack1.png)
+![Stack](images\stack1.png)
 
 ##Otras herramientas
 

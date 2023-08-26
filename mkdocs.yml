@@ -89,9 +89,9 @@ extra:
 nav:
   - Hola👋: index.md
   - About me.: about.md
-  - Tech Stack: stack.md { .md-button }
-  - Certificaciones: certifications.md { .md-button }
-  - Projects: projects.md { .md-button }
+  - Tech Stack: stack.md
+  - Certificaciones: certifications.md
+  - Projects: projects.md
   - Blog: 
     - blog/index.md
 
