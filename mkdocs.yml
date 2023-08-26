@@ -54,9 +54,9 @@ markdown_extensions:
       pygments_lang_class: true
   - admonition
   - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
   - attr_list
   - md_in_html
   - pymdownx.critic
@@ -96,8 +96,7 @@ nav:
   - Tech Stack: stack.md
   - Certificaciones: certifications.md
   - Projects: projects.md
-  - Blog: 
-    - blog/blog.md
+  - Blog: blog/blog.md
 
 extra_css:
   - docs/assets/custom.css
