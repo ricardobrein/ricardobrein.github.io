@@ -1,4 +1,4 @@
-# **Hi there 👋**, this is my personal blog, welcome!
+# **Hi there 👋** Gracias por visitar mi blog personal, ^^Bienvenido!^^
 
 <div style="text-align: center;">
   <img src="images/yo.png" width="200" alt="Ricardo">
@@ -49,7 +49,7 @@
 
 [More about me](about.md){ .md-button } [Stack](stack.md){ .md-button }
 
-## Currently Reading & Learning 📚
+## ^^Currently Reading & Learning^^ 📚
 
 - ==More scraping==
 - ==Containerization with docker==
