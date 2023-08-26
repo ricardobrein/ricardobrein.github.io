@@ -45,12 +45,15 @@ theme:
     - search.suggest
     - content.code.copy
     - content.code.annotations
+
 markdown_extensions:
   - toc:
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - admonition
+  - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
@@ -94,7 +97,7 @@ nav:
   - Certificaciones: certifications.md
   - Projects: projects.md
   - Blog: 
-    - blog/index.md
+    - blog/blog.md
 
 extra_css:
   - docs/assets/custom.css

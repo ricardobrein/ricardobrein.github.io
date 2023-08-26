@@ -1,5 +1,9 @@
 <a href="/ruta/a/tu/entrada" class="docs/blog/index.md"></a>
+
 # Posts
+
+??? tip "Tip: Si el código te parece demasiado pequeño..."
+    Puedes hacer _`zoom`_ a tu navegador para una mejor experiencia visual
 
 # <span style="color:red;">**2023**</span>
 

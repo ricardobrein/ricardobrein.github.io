@@ -28,7 +28,7 @@
 - 
 
 ## ^^Get in touch.^^
-<p align="center">
+<p align="left">
   <a href="https://www.github.com/ricardobrein" target="_blank" rel="noreferrer">
     <img src="https://cdn-icons-png.flaticon.com/512/1051/1051377.png" width="50" height="50" style="background-color: white; border-radius: 50%;" />
   </a>
@@ -42,10 +42,10 @@
 
 
 
-[**Phone**](wa.me+34 615 188 168){ .md-button }[Mail ✉️](mailto:ricardobreindembache@gmail.com){ .md-button }
+[**Phone**](https://wa.me/+34615188168){ .md-button } [Mail ✉️](mailto:ricardobreindembache@gmail.com){ .md-button }
 
 
-[More about me](about.md){ .md-button } [Stack](stack.md){ .md-button } [CV](){ .md-button } 
+[More about me](about.md){ .md-button } [Stack](stack.md){ .md-button } [CV](){ .md-button }
 
 [Learning Blog🗒️](blog/index.md){ .md-button } [Hashnode](https://ricardobrein.hashnode.dev){ .md-button } **&** [Medium](https://medium.com/@ricardobrein){ .md-button }
 
