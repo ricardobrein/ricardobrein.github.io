@@ -47,7 +47,7 @@
 
 [More about me](about.md){ .md-button } [Stack](stack.md){ .md-button } [CV](){ .md-button }
 
-[Learning Blog🗒️](blog/index.md){ .md-button } [Hashnode](https://ricardobrein.hashnode.dev){ .md-button } **&** [Medium](https://medium.com/@ricardobrein){ .md-button }
+[Learning Blog🗒️](blog/blog.md){ .md-button } [Hashnode](https://ricardobrein.hashnode.dev){ .md-button } **&** [Medium](https://medium.com/@ricardobrein){ .md-button }
 
 ## ^^Currently Reading & Learning^^ 📚
 
