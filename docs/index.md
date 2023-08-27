@@ -42,16 +42,20 @@
 
 
 
-[**Phone**](https://wa.me/+34615188168){ .md-button } [Mail ✉️](mailto:ricardobreindembache@gmail.com){ .md-button }
+[Phone :fontawesome-brands-whatsapp:](https://wa.me/+34615188168){ .md-button } [Mail :material-send:](mailto:ricardobreindembache@gmail.com){ .md-button }
 
 
-[More about me](about.md){ .md-button } [Stack](stack.md){ .md-button } [CV](){ .md-button }
+[More about me](about.md){ .md-button } [Stack :octicons-stack-24:](stack.md){ .md-button } [CV](){ .md-button }
 
-[Learning Blog🗒️](blog/blog.md){ .md-button } [Hashnode](https://ricardobrein.hashnode.dev){ .md-button } **&** [Medium](https://medium.com/@ricardobrein){ .md-button }
+## ^^Blogs^^
+???+ succes "Publico blogs acerca de lo que aprendo y otros temas."
+      Mediante blogs y Jupyter notebooks, la mayoria de ellos **hands-on** sobre un ejemplo real. _^^Lo cual también me ayuda a **practicar deliberadamente y compartir conocimiento**^^_
+
+[Learning Blog🗒️](blog/blog.md){ .md-button } [Hashnode :fontawesome-brands-hashnode:](https://ricardobrein.hashnode.dev){ .md-button } **&** [Medium :fontawesome-brands-medium:](https://medium.com/@ricardobrein){ .md-button }
 
 ## ^^Currently Reading & Learning^^ 📚
 
-- ==More scraping==
+- ==More scraping :simple-adminer:==
 - ==Containerization with docker==
 - ==MlOps at scale.==
 
