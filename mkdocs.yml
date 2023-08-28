@@ -25,13 +25,13 @@ theme:
       accent: light blue
       toggle:
         icon: material/weather-night
-        name: dark
+        name: Pasar al modo oscuro
     - scheme: slate
       primary: black
       accent: cyan
       toggle:
-        icon: material/brightness-4
-        name: light
+        icon: material/weather-sunny
+        name: Pasar al modo claro
   features:
     - navigation.instant
     - navigation.tabs.sticky

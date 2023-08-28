@@ -14,7 +14,7 @@
 
 ## ^^Acerca de mí^^
 
-**Ricardo**, enjoys working with _data, statistics and applied AI_ to aproach real-world ^^bussines and society problems^^. He's currently **building** a professional path as a _**Full-stack Data science**_ with the objective of undertand the entire lifecycle, participating in **_end-to-end_ ML projects.** Also, he's commited with self-taught learning, ^^add value to the Spanish tech community^^ and talk about himself in the third person.
+**Ricardo**, enjoys working with _data, statistics and applied AI_ to approach real-world ^^industry and society problems^^. He's currently **building** a professional path as a _**Full-stack Data science**_ with the objective of undertand the entire lifecycle, participating in **_end-to-end_ ML projects.** Also, he's commited with self-taught learning, ^^add value to the Spanish tech community^^ and talk about himself in the third person.
 
 
 
@@ -48,10 +48,10 @@
 [More about me](about.md){ .md-button } [Stack :octicons-stack-24:](stack.md){ .md-button } [CV](){ .md-button }
 
 ## ^^Blogs^^
-???+ succes "Publico blogs acerca de lo que aprendo y otros temas."
-      Mediante blogs y Jupyter notebooks, la mayoria de ellos **hands-on** sobre un ejemplo real. _^^Lo cual también me ayuda a **practicar deliberadamente y compartir conocimiento**^^_
+??? success inline end "blogs sobre mis aprendizajes y otros temas."
+    Jupyter Notebooks para ejemplos prácticos.
 
-[Learning Blog🗒️](blog/blog.md){ .md-button } [Hashnode :fontawesome-brands-hashnode:](https://ricardobrein.hashnode.dev){ .md-button } **&** [Medium :fontawesome-brands-medium:](https://medium.com/@ricardobrein){ .md-button }
+[Learning Blog🗒️](blog/blog.md){ .md-button } [Hashnode :fontawesome-brands-hashnode:](https://ricardobrein.hashnode.dev){ .md-button }  [Medium :fontawesome-brands-medium:](https://medium.com/@ricardobrein){ .md-button }
 
 ## ^^Currently Reading & Learning^^ 📚
 
