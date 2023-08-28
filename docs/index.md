@@ -45,11 +45,12 @@
 [Phone :fontawesome-brands-whatsapp:](https://wa.me/+34615188168){ .md-button } [Mail :material-send:](mailto:ricardobreindembache@gmail.com){ .md-button }
 
 
-[More about me](about.md){ .md-button } [Stack :octicons-stack-24:](stack.md){ .md-button } [CV](){ .md-button }
+[More about me :material-account-box-outline:](about.md){ .md-button } [Stack :octicons-stack-24:](stack.md){ .md-button } 
+[ CV ](){ .md-button }
 
 ## ^^Blogs^^
 ??? success inline end "blogs sobre mis aprendizajes y otros temas."
-    Jupyter Notebooks para ejemplos prácticos.
+    ^^Jupyter Notebooks^^ para practicar deliberadamente y compartir ejemplos prácticos.
 
 [Learning Blog🗒️](blog/blog.md){ .md-button } [Hashnode :fontawesome-brands-hashnode:](https://ricardobrein.hashnode.dev){ .md-button }  [Medium :fontawesome-brands-medium:](https://medium.com/@ricardobrein){ .md-button }
 
