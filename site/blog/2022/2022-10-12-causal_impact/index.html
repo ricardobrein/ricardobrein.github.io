@@ -1590,21 +1590,21 @@ Licensed under the Apache License, Version 2.0.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<pre><code># Data processing
-import pandas as pdm
-import numpy as np
-from datetime import datetime
+<div class="highlight"><pre><span></span><span class="c1"># Data processing</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pdm</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
 
-# Create synthetic time-series data
-from statsmodels.tsa.arima_process import ArmaProcess
+<span class="c1"># Create synthetic time-series data</span>
+<span class="kn">from</span> <span class="nn">statsmodels.tsa.arima_process</span> <span class="kn">import</span> <span class="n">ArmaProcess</span>
 
-# Visualization
-import matplotlib.pyplot as plt
-import seaborn as sns
+<span class="c1"># Visualization</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
 
-# Causal impact
-from causalimpact import CausalImpact
-</code></pre>
+<span class="c1"># Causal impact</span>
+<span class="kn">from</span> <span class="nn">causalimpact</span> <span class="kn">import</span> <span class="n">CausalImpact</span>
+</pre></div>
 </div>
 </div>
 </div>
@@ -1634,68 +1634,34 @@ from causalimpact import CausalImpact
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=a19fe218">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a19fe218">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-2">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># Set up a seed for reproducibility</span>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="highlight"><pre><span></span><span class="c1"># semilla aleatoria</span>
 <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
 
-<span class="c1"># Autoregressive coefficients</span>
+<span class="c1"># Coeficientes autorregresivos</span>
 <span class="n">arparams</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">.95</span><span class="p">,</span> <span class="mf">.05</span><span class="p">])</span>
 
-<span class="c1"># Moving average coefficients</span>
+<span class="c1"># Coeficientes promedios</span>
 <span class="n">maparams</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">.6</span><span class="p">,</span> <span class="mf">.3</span><span class="p">])</span>
 
-<span class="c1"># Create a ARMA process</span>
+<span class="c1"># Creacion del ARMA proccess</span>
 <span class="n">arma_process</span> <span class="o">=</span> <span class="n">ArmaProcess</span><span class="o">.</span><span class="n">from_coeffs</span><span class="p">(</span><span class="n">arparams</span><span class="p">,</span> <span class="n">maparams</span><span class="p">)</span>
 
-<span class="c1"># Create the control time-series</span>
+<span class="c1"># Control Time-series</span>
 <span class="n">X</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">+</span> <span class="n">arma_process</span><span class="o">.</span><span class="n">generate_sample</span><span class="p">(</span><span class="n">nsample</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
 
-<span class="c1"># Create the response time-series</span>
+<span class="c1"># Respuesta del time-series</span>
 <span class="n">y</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">X</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
 
-<span class="c1"># Add the true causal impact</span>
+<span class="c1"># Causal impact</span>
 <span class="n">y</span><span class="p">[</span><span class="mi">300</span><span class="p">:]</span> <span class="o">+=</span> <span class="mi">10</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-2"># Set up a seed for reproducibility
-np.random.seed(42)
-
-# Autoregressive coefficients
-arparams = np.array([.95, .05])
-
-# Moving average coefficients
-maparams = np.array([.6, .3])
-
-# Create a ARMA process
-arma_process = ArmaProcess.from_coeffs(arparams, maparams)
-
-# Create the control time-series
-X = 10 + arma_process.generate_sample(nsample=500)
-
-# Create the response time-series
-y = 2 * X + np.random.normal(size=500)
-
-# Add the true causal impact
-y[300:] += 10</div>
-</div>
-</div>
 </div>
 </div>
 </div>
@@ -1720,7 +1686,7 @@ y[300:] += 10</div>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-3">
+<clipboard-copy for="cell-2">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1742,7 +1708,7 @@ y[300:] += 10</div>
 <span class="c1"># Take a look at the data</span>
 <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-3"># Create dates
+<div class="clipboard-copy-txt" id="cell-2"># Create dates
 dates = pd.date_range('2021-01-01', freq='D', periods=500)
 
 # Create dataframe
@@ -1845,7 +1811,7 @@ df.head()</div>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-4">
+<clipboard-copy for="cell-3">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1864,7 +1830,7 @@ df.head()</div>
 <span class="c1"># Print out the intervention start date</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'The treatment start date is :</span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">300</span><span class="p">]</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-4"># Print out the time series start date
+<div class="clipboard-copy-txt" id="cell-3"># Print out the time series start date
 print(f'The time-series start date is :{df.index.min()}')
 
 # Print out the time series end date
@@ -1912,7 +1878,7 @@ The treatment start date is :2021-10-28 00:00:00
 <div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-5">
+<clipboard-copy for="cell-4">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1930,7 +1896,7 @@ The treatment start date is :2021-10-28 00:00:00
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'X'</span><span class="p">,</span> <span class="s1">'y'</span><span class="p">])</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-5"># Visualize data using seaborn
+<div class="clipboard-copy-txt" id="cell-4"># Visualize data using seaborn
 sns.set(rc={'figure.figsize':(12,8)})
 sns.lineplot(x=df.index, y=df['X'])
 sns.lineplot(x=df.index, y=df['y'])
@@ -1977,7 +1943,7 @@ plt.show()</div>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-6">
+<clipboard-copy for="cell-5">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1997,7 +1963,7 @@ plt.show()</div>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'The pre-period is </span><span class="si">{</span><span class="n">pre_period</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'The post-period is </span><span class="si">{</span><span class="n">post_period</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-6"># Set pre-period
+<div class="clipboard-copy-txt" id="cell-5"># Set pre-period
 pre_period = [str(df.index.min())[:10], str(df.index[299])[:10]]
 
 # Set post-period
@@ -2047,7 +2013,7 @@ The post-period is ['2021-10-28', '2022-05-15']
 <div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-7">
+<clipboard-copy for="cell-6">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -2068,7 +2034,7 @@ The post-period is ['2021-10-28', '2022-05-15']
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'The post-treatment daily average is </span><span class="si">{</span><span class="n">post_daily_avg</span><span class="si">}</span><span class="s1">.'</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'The raw difference between the pre and the post treatment is </span><span class="si">{</span><span class="n">post_daily_avg</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">pre_daily_avg</span><span class="si">}</span><span class="s1">.'</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-7"># Calculate the pre-daily average
+<div class="clipboard-copy-txt" id="cell-6"># Calculate the pre-daily average
 pre_daily_avg = df['y'][:300].mean()
 
 # Calculate the post-daily average
@@ -2131,7 +2097,7 @@ The raw difference between the pre and the post treatment is 51.72495432054855.
 <div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-8">
+<clipboard-copy for="cell-7">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -2149,7 +2115,7 @@ The raw difference between the pre and the post treatment is 51.72495432054855.
 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-8"># Causal impact model
+<div class="clipboard-copy-txt" id="cell-7"># Causal impact model
 impact = CausalImpact(data=df, pre_period=pre_period, post_period=post_period)
 
 # Visualization
@@ -2218,7 +2184,7 @@ C:\Users\franc\AppData\Local\pypoetry\Cache\virtualenvs\basic-tools-a_KeXlN7-py3
 <div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-9">
+<clipboard-copy for="cell-8">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -2231,7 +2197,7 @@ C:\Users\franc\AppData\Local\pypoetry\Cache\virtualenvs\basic-tools-a_KeXlN7-py3
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># Causal impact summary</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">impact</span><span class="o">.</span><span class="n">summary</span><span class="p">())</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-9"># Causal impact summary
+<div class="clipboard-copy-txt" id="cell-8"># Causal impact summary
 print(impact.summary())</div>
 </div>
 </div>
@@ -2286,7 +2252,7 @@ For more details run the command: print(impact.summary('report'))
 <div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-10">
+<clipboard-copy for="cell-9">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -2299,7 +2265,7 @@ For more details run the command: print(impact.summary('report'))
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># Causal impact report</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">impact</span><span class="o">.</span><span class="n">summary</span><span class="p">(</span><span class="n">output</span><span class="o">=</span><span class="s1">'report'</span><span class="p">))</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-10"># Causal impact report
+<div class="clipboard-copy-txt" id="cell-9"># Causal impact report
 print(impact.summary(output='report'))</div>
 </div>
 </div>
@@ -2380,7 +2346,7 @@ significant.
 <div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-11">
+<clipboard-copy for="cell-10">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -2396,7 +2362,7 @@ significant.
 <span class="c1"># Plot the results</span>
 <span class="n">impact_no_prior_level_sd</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-11"># Causal impact model without prior level sd
+<div class="clipboard-copy-txt" id="cell-10"># Causal impact model without prior level sd
 impact_no_prior_level_sd = CausalImpact(df, pre_period, post_period, prior_level_sd=None)
 
 # Plot the results
@@ -2450,7 +2416,7 @@ C:\Users\franc\AppData\Local\pypoetry\Cache\virtualenvs\basic-tools-a_KeXlN7-py3
 <div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-12">
+<clipboard-copy for="cell-11">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -2463,7 +2429,7 @@ C:\Users\franc\AppData\Local\pypoetry\Cache\virtualenvs\basic-tools-a_KeXlN7-py3
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># Print out the summary</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">impact_no_prior_level_sd</span><span class="o">.</span><span class="n">summary</span><span class="p">())</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-12"># Print out the summary
+<div class="clipboard-copy-txt" id="cell-11"># Print out the summary
 print(impact_no_prior_level_sd.summary())</div>
 </div>
 </div>
