@@ -47,11 +47,11 @@ theme:
     - content.code.annotations
 
 markdown_extensions:
-  - toc:
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - toc
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -70,8 +70,8 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
- 
-  # ... other extensions ...
+
+# ... other extensions ...
 
 # Extra content
 extra:
