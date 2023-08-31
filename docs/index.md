@@ -12,7 +12,7 @@
   </p>
 </div>
 
-## ^^Acerca de mí^^
+## ^^**Acerca de mí**^^
 
 **Ricardo**, enjoys working with _data, statistics and applied AI_ to approach real-world ^^industry and society problems^^. He's currently **building** a professional path as a _**Full-stack Data science**_ with the objective of undertand the entire lifecycle, participating in **_end-to-end_ ML projects.** Also, he's commited with self-taught learning, ^^add value to the Spanish tech community^^ and talk about himself in the third person.
 

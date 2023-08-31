@@ -12,8 +12,8 @@ theme:
   name: material
   custom_dir: docs/assets/
   font:
-    text: Fira Sans
-    code: Roboto mono
+    text: Courier Prime
+    code: Source Code Pro
   language: es
   logo: images/yo.png
   icon:
