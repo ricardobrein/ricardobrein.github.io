@@ -1,4 +1,4 @@
-# **Hi there 👋** Gracias por visitar mi blog personal. ^^Bienvenido!^^
+# **Hi there 👋** Gracias por visitar mi blog personal. ^^**Bienvenido!**^^
 
 <div style="text-align: center;">
   <img src="images/yo.png" width="200" alt="Ricardo">
@@ -14,15 +14,15 @@
 
 ## ^^**About me**^^
 
-Ricardo enjoys working with `data, statistics, and applied Machine Learning` to tackle real-world **business and societal problems**. His goal is to **build** a professional path as a **Full-stack Data Scientist**, understanding the entire lifecycle of an **_end-to-end_ ML system**.   
+Ricardo enjoys working with `data, statistics, and applied Machine Learning` to tackle real-world **business and users problems**. His goal is to **build** a professional path as a **^^Full-stack Data Scientist^^**, understanding the entire lifecycle of an **ML system**.   
 
-He is committed to:
+**He is committed to:**
 
-- Self-taught continous learning  
-- ^^Spread the word, Adding value to the AI community in [Español](https://ricardobrein.hashnode.dev)^^ coming soon: [Youtube channel](https://youtube.com/@ricardodata)
+- Self-taught continous learning.
+- ^^Spread the word^^, Adding value to the AI community in [Español](https://ricardobrein.hashnode.dev) coming: [Youtube channel](https://youtube.com/@ricardodata)
 - Crafting solutions that better our world, applying ML ethically and responsibly.
 
-When he's keyboard isn't clacking away, you'll find him with León🦁, walking or rambling in the analog world.
+When he's keyboard isn't clacking away, you'll find him with León🦁, working, walking or rambling in the analog world.
 
 ## ^^**Interests**^^
 
@@ -54,13 +54,13 @@ When he's keyboard isn't clacking away, you'll find him with León🦁, walking 
 [More about me :material-account-box-outline:](about.md){ .md-button } [Stack :octicons-stack-24:](stack.md){ .md-button } 
 [ CV ](){ .md-button }
 
-## ^^Blogs^^
+## ^^**Blogs**^^
 ??? success inline end "blogs sobre mis aprendizajes y otros temas."
     ^^Jupyter Notebooks^^ para practicar deliberadamente y compartir ejemplos prácticos.
 
 [Learning Blog🗒️](blog/blog.md){ .md-button } [Hashnode :fontawesome-brands-hashnode:](https://ricardobrein.hashnode.dev){ .md-button }  [Medium :fontawesome-brands-medium:](https://medium.com/@ricardobrein){ .md-button }
 
-## ^^Currently Reading & Learning^^ 📚
+## ^^**Currently Reading & Learning**^^ 📚
 
 - ==More scraping :simple-adminer:==
 - ==Containerization with docker==
