@@ -12,22 +12,28 @@
   </p>
 </div>
 
-## ^^**Acerca de mí**^^
+## ^^**About me**^^
 
-**Ricardo**, enjoys working with _data, statistics and applied AI_ to approach real-world ^^industry and society problems^^. He's currently **building** a professional path as a _**Full-stack Data science**_ with the objective of undertand the entire lifecycle, participating in **_end-to-end_ ML projects.** Also, he's commited with self-taught learning, ^^add value to the Spanish tech community^^ and talk about himself in the third person.
+Ricardo enjoys working with `data, statistics, and applied Machine Learning` to tackle real-world **business and societal problems**. His goal is to **build** a professional path as a **Full-stack Data Scientist**, understanding the entire lifecycle of an **_end-to-end_ ML system**.   
 
+He is committed to:
 
+- Self-taught continous learning  
+- ^^Spread the word, Adding value to the AI community in [Español](https://ricardobrein.hashnode.dev)^^ coming soon: [Youtube channel](https://youtube.com/@ricardodata)
+- Crafting solutions that better our world, applying ML ethically and responsibly.
 
-## ^^Interests^^
+When he's keyboard isn't clacking away, you'll find him with León🦁, walking or rambling in the analog world.
 
-- 💻 Data, applied AI
+## ^^**Interests**^^
+
+- 💻 Python programming, Data, applied AI
 - 🧙🏻‍♂️ MLOps, CI/CD, deployment
-- 🧠 Machine / Deep Learning
+- 🧠 Machine / Deep Learning with scikit-learn, pytorch, tensorflow
 - ⛓️ Security and reliability
-- ☁️ Cloud computing, Big Data architecture.
+- ☁️ Cloud computing, Big Data architecture in Azure, AWS, GCP.
 - 
 
-## ^^Get in touch.^^
+## ^^**Get in touch.**^^
 <p align="left">
   <a href="https://www.github.com/ricardobrein" target="_blank" rel="noreferrer">
     <img src="https://cdn-icons-png.flaticon.com/512/1051/1051377.png" width="50" height="50" style="background-color: white; border-radius: 50%;" />
