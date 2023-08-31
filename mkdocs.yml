@@ -12,7 +12,7 @@ theme:
   name: material
   custom_dir: docs/assets/
   font:
-    text: Courier Prime
+    text: Source Code Pro
     code: Source Code Pro
   language: es
   logo: images/yo.png
