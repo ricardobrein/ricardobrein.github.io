@@ -14,7 +14,7 @@
 
 ## ^^**About me**^^
 
-Ricardo enjoys working with `data, statistics, and applied Machine Learning` to tackle real-world **business and users problems**. His goal is to **build** a professional path as a **^^Full-stack Data Scientist^^**, understanding the entire lifecycle of an **ML system**.   
+Ricardo enjoys working with tools related to `Data engineering, statistics, and applied Machine Learning` to tackle real-world **business and users problems**. His goal is to **build** a professional and **^^Full-stack^^** path in **Data**, understanding the entire lifecycle and plan and build robust **data system**.   
 
 **He is committed to:**
 

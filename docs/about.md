@@ -1,6 +1,8 @@
 # Acerca de Mi
 
-**Ricardo,** es un ^^desarrollador Junior de IA, Machine learning y big data^^, impulsado por la curiosidad y por las ganas de participar en la creación de soluciones aprovechando el impacto que tiene las técnicas de `Inteligencia Artificial` en muchos sectores de la _sociedad_, la _industria_ y en la manera en como nos relacionamos con la tecnología.
+**Ricardo,** es un ^^desarrollador Junior de IA, Machine learning y big data^^, impulsado por la curiosidad y por las ganas de participar en la creación de soluciones aprovechando el impacto que tienen las técnicas de `Inteligencia Artificial` en muchos sectores de la _sociedad_, la _industria_ y en la manera en como nos relacionamos con la tecnología.
+
+Me interesa conocer el la escencia del mundo que nos rodea a través de los datos y el análisis, quiero conocer por qué las personas piensan como lo hacen y cual es el trasfondo de cada situacion para entender realmente sus motivaciones y que lleva a cada individuo a tomar ciertas decisiones.
 
 Creo en la posibilidad de ser **polivalente y generalista**, abarcando cada aspecto de una canalización de datos, desde que se produce hasta que se introduce en el bucle de , **convertirlo en conocimiento**. _Enseñar a la maquina_ y sacar conclusiones mediante análisis estadístico o un modelo de Machine learning que haga inferencias sobre ellos.
 
