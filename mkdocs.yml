@@ -12,7 +12,7 @@ theme:
   name: material
   custom_dir: docs/assets/
   font:
-    text: Source Code Pro
+    text: IBM Plex Mono
     code: Source Code Pro
   language: es
   logo: images/yo.png
@@ -28,7 +28,7 @@ theme:
         name: Pasar al modo oscuro
     - scheme: slate
       primary: black
-      accent: cyan
+      accent: amber
       toggle:
         icon: material/weather-sunny
         name: Pasar al modo claro

@@ -5,13 +5,13 @@
 ???+ tip "Tip: Si el código te parece demasiado pequeño..."
     Te sugiero hacerle _`ZOOM`_ a tu navegador, hasta 125% - 150% para una mejor experiencia visual
 
-## [**State of the art of machine learning systems**](2023/hola.md)
+## [**Polars, parte 2**](2022/parte-2/parte-2-polars.ipynb)
 
-[<img src="https://cdn3.iconfinder.com/data/icons/tiny-charts-and-graphs/32/flat_line_graph-512.png"  width="90" height="150" align="left">](2023/hola.md)
+Funciones en polars y por qué es tan rápido...
+[<img src="https://cdn3.iconfinder.com/data/icons/tiny-charts-and-graphs/32/flat_line_graph-512.png"  width="90" height="150" align="left">](2022/parte-2/parte-2-polars.ipynb)
 
-*SOTA* de los sistemas de machine learning, haremos un análisis de la actualidad relacionada con el ml
-
-[Continue Reading ➔](2023/hola.md)
+La continuación de la introducción a la librería de análisis de datos Polars.
+[Continue Reading ➔](2022/parte-2/parte-2-polars.ipynb)
 
 ---
 ## **Causal Impact**
@@ -37,9 +37,9 @@ Cómo abordar el desarrollo de software para Data Science usando Test Driven Dev
 ---
 ## **Polars**
 
-[<img src="https://www.rust-lang.org/logos/rust-logo-512x512.png"  width="90" height="90" align="left">](2022/2022-03-16-polars.ipynb)
+[<img src="https://www.rust-lang.org/logos/rust-logo-512x512.png"  width="90" height="90" align="left">](2022/intro-to-polars.ipynb)
 Polars es una librería de DataFrames increíblemente rápida y eficiente  implementada en Rust.<br>
-[Continue reading ➔](2022/2022-03-16-polars.ipynb)
+[Continue reading ➔](2022/intro-to-polars.ipynb)
 
 ---
 ## **Impact on Digital Learning**

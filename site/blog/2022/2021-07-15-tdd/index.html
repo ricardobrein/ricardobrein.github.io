@@ -22,7 +22,7 @@
     
     
       
-        <title>TDD - Ricardo Breindembache</title>
+        <title>TDD ✅ Una introdución al Test Driven development. - Ricardo Breindembache</title>
       
     
     
@@ -40,8 +40,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,300i,400,400i,700,700i%7CSource+Code+Pro:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Source Code Pro";--md-code-font:"Source Code Pro"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i,400,400i,700,700i%7CSource+Code+Pro:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"IBM Plex Mono";--md-code-font:"Source Code Pro"}</style>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#tdd" class="md-skip">
+        <a href="#tdd-una-introducion-al-test-driven-development" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              TDD
+              TDD ✅ Una introdución al Test Driven development.
             
           </span>
         </div>
@@ -133,7 +133,7 @@
             
             
             
-            <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="cyan"  aria-label="Pasar al modo claro"  type="radio" name="__palette" id="__palette_2">
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="amber"  aria-label="Pasar al modo claro"  type="radio" name="__palette" id="__palette_2">
             
               <label class="md-header__button md-icon" title="Pasar al modo claro" for="__palette_1" hidden>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
@@ -493,13 +493,6 @@
         <li class="md-nav__item">
   <a href="#librerias-disponibles" class="md-nav__link">
     Librerías disponibles
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#referencias" class="md-nav__link">
-    Referencias
   </a>
   
 </li>
@@ -1552,10 +1545,9 @@ Licensed under the Apache License, Version 2.0.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="tdd">TDD<a class="anchor-link" href="#tdd">¶</a></h1><p><a href="https://colab.research.google.com/github/fralfaro/portfolio/blob/main/docs/blog/posts/2022/2021-07-15-tdd.ipynb"><img alt="Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
-<h2 id="introduccion">Introducción<a class="anchor-link" href="#introduccion">¶</a></h2><p>Esta sección busca dar señales de cómo abordar el desarrollo de software para Data Science usando <em>Test Driven Development</em>, una técnica ampliamente usada en otros rubros de la programación.</p>
+<h1 id="tdd-una-introducion-al-test-driven-development">TDD ✅ Una introdución al Test Driven development.<a class="anchor-link" href="#tdd-una-introducion-al-test-driven-development">¶</a></h1><h2 id="introduccion">Introducción<a class="anchor-link" href="#introduccion">¶</a></h2><p>El objetivo de este blog es hacerles una introduccion al desarrollo basado en pruebas aplicado a Data Science usando <em>Test Driven Development</em>, esta técnica es muy usada en otras aréas de programacion.</p>
 <h3 id="que-es-el-test-driven-development">¿Qué es el <em>Test Driven Development</em>?<a class="anchor-link" href="#que-es-el-test-driven-development">¶</a></h3><p>En palabras simples, el desarrollo guiado por pruebas pone las pruebas en el corazón de nuestro trabajo. En su forma más simple consiste en un proceso iterativo de 3 fases:</p>
-<p><img alt="" src="https://raw.githubusercontent.com/fralfaro/portfolio/main/docs/blog/posts/images/tdd/tdd.png"/></p>
+<p><img alt="" src="https://github.com/ricardobrein/ricardobrein.github.io/blob/d87d1085d789d9cbfa4ece23a5379e68c66c319c/docs/images/tdd.png"/></p>
 <ul>
 <li><strong>Red</strong>: Escribe un test que ponga a prueba una nueva funcionalidad y asegurate de que el test falla</li>
 <li><strong>Green</strong>: Escribe el código mínimo necesario para pasar ese test</li>
@@ -1572,7 +1564,7 @@ Licensed under the Apache License, Version 2.0.
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="ejemplo-sencillo">Ejemplo sencillo<a class="anchor-link" href="#ejemplo-sencillo">¶</a></h3><p>A modo de ejemplo, vamos a testear la función <code>paridad</code>, que determina si un número natural es par o no.</p>
-<p>Lo primero que se debe hacer es crear el test, para ello se ocupará la librería <a href="https://docs.pytest.org/en/6.2.x/">pytest</a>.</p>
+<p>Lo primero que se debe hacer es crear el test, para ello utilizaremos la librería <a href="https://docs.pytest.org/en/6.2.x/">pytest</a>.</p>
 <blockquote>
 <p><strong>Nota</strong>: No es necesario conocer previamente la librería <code>pytest</code> para entender el ejemplo.</p>
 </blockquote>
@@ -1634,16 +1626,6 @@ temp/test_funcion.py F                                              [100%]
 <span class="sd">    """</span>
     <span class="k">return</span> <span class="s1">'par'</span> <span class="k">if</span> <span class="n">n</span><span class="o">%</span><span class="mi">2</span><span class="o">==</span><span class="mi">0</span> <span class="k">else</span> <span class="s1">'impar'</span>
 </pre></div>
-<p>Volvemos a correr el test:</p>
-<pre><code>========= test session starts ============================================ 
-platform linux -- Python 3.8.10, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
-rootdir: /home/fralfaro/PycharmProjects/ds_blog
-plugins: anyio-3.3.0
-collected 1 item                                                                                                                                                                          
-
-temp/test_funcion.py .                                              [100%]
-========= 1 passed in 0.06s  ===============================================
-</code></pre>
 </div>
 </div>
 </div>
@@ -1664,27 +1646,6 @@ temp/test_funcion.py .                                              [100%]
 <span class="k">def</span> <span class="nf">test_paridad</span><span class="p">(</span><span class="n">number</span><span class="p">,</span> <span class="n">expected</span><span class="p">):</span>
     <span class="k">assert</span> <span class="n">paridad</span><span class="p">(</span><span class="n">number</span><span class="p">)</span> <span class="o">==</span> <span class="n">expected</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=78adfe89">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>y corremos nuevamente los test:</p>
-<pre><code>========= test session starts ============================================ 
-platform linux -- Python 3.8.10, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
-rootdir: /home/fralfaro/PycharmProjects/ds_blog
-plugins: anyio-3.3.0
-collected 2 items                                                                                                                                                                          
-
-temp/test_funcion.py ..                                              [100%]
-========= 2 passed in 0.06s  ===============================================
-</code></pre>
-<p>Listo, nuestra función <code>paridad</code> ha sido testeado correctamente!.</p>
 </div>
 </div>
 </div>
@@ -1730,7 +1691,7 @@ temp/test_funcion.py ..                                              [100%]
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Como todo en la vida, nada es gratis:</p>
 <blockquote>
-<p>Incremento del tiempo de desarrollo varía entre un 15% a 35%.</p>
+<p>⏱️Incremento del tiempo de desarrollo varía entre un 15% a 35%.</p>
 </blockquote>
 </div>
 </div>
@@ -1742,7 +1703,7 @@ temp/test_funcion.py ..                                              [100%]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Sin embargo</p>
+<p><strong>Sin embargo...</strong></p>
 <blockquote>
 <p>Desde un punto de vista de eficacia este incremento en tiempo de desarrollo se compensa por los costos de mantención reducidos debido al incremento en calidad.</p>
 </blockquote>
@@ -1756,35 +1717,28 @@ temp/test_funcion.py ..                                              [100%]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Además, es importante escribir tests junto con la implementación en pequeñas iteraciones. <a href="https://collaboration.csc.ncsu.edu/laurie/Papers/TDDpaperv8.pdf">George y Williams</a> encontraron que escribir tests después de que la aplicación está mas o menos lista hace que se testee menos porque los desarrolladores piensan en menos casos, y además la aplicación se vuelve menos testeable. Otra conclusión interesante del estudio de George y Williams es que un 79% de los desarrolladores experimentaron que el uso de TDD conlleva a un diseño más simple.</p>
 <h2 id="puedo-usar-tdd-siempre">¿Puedo usar TDD siempre?<a class="anchor-link" href="#puedo-usar-tdd-siempre">¶</a></h2><p>No, pero puedes usarlo casi siempre. El análisis exploratorio es un caso en que el uso de TDD no hace sentido. Una vez que tenemos definido el problema a solucionar y un mejor entendimiento del problema podemos aterrizar nuestras ideas a la implementación vía testing.</p>
 <h2 id="librerias-disponibles">Librerías disponibles<a class="anchor-link" href="#librerias-disponibles">¶</a></h2><p>Acá listamos algunas librerías de TDD en Python:</p>
 <ul>
-<li><a href="https://docs.python.org/3/library/unittest.html">unittest</a>: Módulo dentro de la librería estándar de Python. Permite realizar tests unitarios, de integración y end to end.</li>
+<li><a href="https://docs.python.org/3/library/unittest.html">unittest</a>: Módulo dentro de la librería estándar de Python. Permite realizar tests unitarios, de integración y ent-to-end.</li>
 <li><a href="https://docs.python.org/3/library/doctest.html">doctest</a>: Permite realizar test de la documentación del código (ejemplos: <a href="http://www.numpy.org/">Numpy</a> o <a href="https://pandas.pydata.org/">Pandas</a>).</li>
 <li><a href="https://docs.pytest.org/en/latest/">pytest</a>: Librería de testing ampliamente usada en proyectos nuevos de Python.</li>
 <li><a href="https://nose.readthedocs.io/en/latest/">nose</a>: Librería que extiende unittest para hacerlo más simple.</li>
 <li><a href="https://coverage.readthedocs.io/en/v4.5.x/">coverage</a>: Herramienta para medir la <a href="https://es.wikipedia.org/wiki/Cobertura_de_c%C3%B3digo">cobertura de código</a> de los proyectos.</li>
-<li><a href="https://tox.readthedocs.io/en/latest/">tox</a>: Herramienta para facilitar el test de una librería en diferentes versiones e intérpretes de Python.</li>
+<li><a href="https://tox.readthedocs.io/en/latest/">🌟 highly recommended: tox</a>: Herramienta para facilitar el test de una librería en diferentes versiones e intérpretes de Python.</li>
 <li><a href="https://hypothesis.readthedocs.io/en/latest/">hypothesis</a>: Librería para escribir tests vía reglas que ayuda a encontrar casos borde.</li>
-<li><a href="https://behave.readthedocs.io/en/latest/">behave</a>: Permite utilizar <a href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_comportamiento">Behavior Driven Development</a>, un proceso de desarrollo derivado del TDD.</li>
+<li><a href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_comportamiento">Behavior Driven Development</a>, un proceso de desarrollo derivado del TDD.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5579ecbc">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1d24d7d7">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="referencias">Referencias<a class="anchor-link" href="#referencias">¶</a></h2><ul>
-<li><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Realizing-Quality-Improvement-Through-Test-Driven-Development-Results-and-Experiences-of-Four-Industrial-Teams-nagappan_tdd.pdf">Realizing Quality Improvement Through Test Driven Development - Results and Experiences of Four Industrial Teams</a>, es una buena lectura, sobretodo los consejos que dan en las conclusiones.</li>
-<li><a href="https://testing.googleblog.com/">Google Testing Blog</a>: Poseen varios artículos sobre cómo abordar problemas tipo, buenas prácticas de diseño para generar código testeable, entre otros. En particular destaca la serie <em>Testing on the Toilet</em>.</li>
-<li><a href="https://martinfowler.com/tags/testing.html">Cualquier artículo de Martin Fowler sobre testing</a>, empezando por <a href="https://martinfowler.com/articles/practical-test-pyramid.html">éste</a></li>
-<li><a href="https://sourcemaking.com/design_patterns">Design Patterns</a>: Los patrones de diseño de software tienen en consideración que el código sea <em>testeable</em>.</li>
-</ul>
 </div>
 </div>
 </div>

@@ -18,9 +18,9 @@ Ricardo enjoys working with tools related to `Data engineering, statistics, and 
 
 **He is committed to:**
 
-- Self-taught continous learning.
+- Self-taught long-life learning.
 - ^^Spread the word^^, Adding value to the AI community in [Español](https://ricardobrein.hashnode.dev) coming: [Youtube channel](https://youtube.com/@ricardodata)
-- Crafting solutions that better our world, applying ML ethically and responsibly.
+- Thinking of AI as a tool to elevate human freedom and performance, crafting solutions that bring happiness, and leading the next step in the evolution of human consciousness, applying ML with integrity and curiosity.
 
 When he's keyboard isn't clacking away, you'll find him with León🦁, working, walking or rambling in the analog world.
 
