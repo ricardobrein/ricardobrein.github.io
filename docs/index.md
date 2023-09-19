@@ -3,7 +3,7 @@
 <div style="text-align: center;">
   <img src="images/yo.png" width="200" alt="Ricardo">
   <p style="font-size: 1.2rem;">
-    <strong>Machine Learning | AI | Big data | Junior Developer</strong>
+    <strong>Machine Learning | AI | Cloud | Junior Developer</strong>
   </p>
   <p style="margin-top: 20px;">
     <a href="https://git.io/typing-svg">

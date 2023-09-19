@@ -89,7 +89,7 @@ extra:
       link: https://medium.com/@ricardobrein
       name: Medium @Ricardobrein
     - icon: fontawesome/brands/hashnode
-      link: ricardobrein.hashnode.dev
+      link: https://ricardobrein.hashnode.dev
       name: hashnode Blog
 
 # Navigation menu
