@@ -71,9 +71,7 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
-# ... other extensions ...
 
-# Extra content
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -93,7 +91,7 @@ extra:
       name: hashnode Blog
 
 # Navigation menu
-nav:
+nav: 
   - Hola👋: index.md
   - About me.: about.md
   - Tech Stack: stack.md

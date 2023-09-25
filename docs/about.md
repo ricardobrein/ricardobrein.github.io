@@ -1,26 +1,29 @@
-# Acerca de Mi
+# **Acerca de Mi**
 
-**Ricardo,** es un ^^desarrollador Junior de IA, Machine learning y big data^^, impulsado por la curiosidad y por las ganas de participar en la creación de soluciones aprovechando el impacto que tienen las técnicas de `Inteligencia Artificial` en muchos sectores de la _sociedad_, la _industria_ y en la manera en como nos relacionamos con la tecnología.
+**Ricardo,** es un ^^desarrollador Junior de IA, principalmente Machine / Deep learning enfocado en que estos sistemas y modelos sean accesibles a de manera práctica^^, impulsado por la curiosidad y por las ganas de participar en proyectos que pongan las nuevas técnologias al servicio de los usuarios; como inteligencia artificial generativa, análisis de datos, e inteligencia de negocios,con el fin de optimizar las decisiones y la mejora de los servicios. 
 
-Me interesa conocer el la escencia del mundo que nos rodea a través de los datos y el análisis, quiero conocer por qué las personas piensan como lo hacen y cual es el trasfondo de cada situacion para entender realmente sus motivaciones y que lleva a cada individuo a tomar ciertas decisiones.
+Empresas como `Micrososoft, Meta, Google y nuevos players como OpenAI`, trabajando y apuestan por la evolución de la `Inteligencia Artificial` en muchos sectores de la _sociedad_, la _industria_ y en la manera en como nos relacionamos con la tecnología. Pero estos beneficios **no tienen por qué limitarse a grandes compañias**, las pequeñas empresas en todo tipo de industrias, aprovechar estas herramientas de IA, *(Que en realidad son matemáticas aplicadas a través de machine learning y deep learning)* como un aliado estrátegico, para poder predecir, automatizar, y en general mejorar la calidad de los sistemas de trabajo.
 
-Creo en la posibilidad de ser **polivalente y generalista**, abarcando cada aspecto de una canalización de datos, desde que se produce hasta que se introduce en el bucle de , **convertirlo en conocimiento**. _Enseñar a la maquina_ y sacar conclusiones mediante análisis estadístico o un modelo de Machine learning que haga inferencias sobre ellos.
+Me interesa ^^conocer el la escencia del mundo que nos rodea a través de los datos y el análisis^^, me interesa influir positivamente en la divulgación y en la adopción de la inteligencia artificial, enfocandome en que sea ético, que respete la libertad de las personas y los derechos y que sea una herramienta al servicio de la inteligencia y la bondad humana. Conociendo cual es el trasfondo de cada situacion para entender realmente las motivaciones de las personas y poder complementarlas con nueva tecnologia.
 
-## Skills | Interest
+Un data science actualizado debe ser  ser **polivalente y más generalista**, abarcando un amplio espectro de una canalización de datos, desde donde se producen, hasta que se introduce en el bucle de **convertirlo en conocimiento, y modelarlo**. 
 
-💻 **Datos e IA aplicada a la empresa**: Python, shell, SQL, Polars, Matplotlib, Modelos de predicción, Redes Neuronales, NLP, CV, Power BI
+_Enseñar a la maquina a pensar en base a nuestros datos_, hacer que aprenda de ellos y nos ayude a sacar conclusiones mediante análisis estadísticos, creando modelos que traduzcan la información subyacente.
 
-🧙🏻‍♂️ **MLOps | CI/CD**: GIT, Pytest, Github Actions, 
+## **Skills | Interest**
 
-🧠 **Machine / Deep Learning:** Scikit Learn, Amazon Sagemaker, Tensorflow, Keras, MXnet, 
-arquitectura de redes neuronales como Conv, Recurrent, LSTMs, Transformers y como hacerlas más eficientes.
+💻 **Datos e IA aplicada**: Python, YML, SQL, Pandas, Matplotlib, Modelos de ML: Supervisados, No-supervisados, Redes Neuronales, NLP, CV, Power BI
 
-☁️ **Cloud computing, Big Data:** AWS, Azure, Kafka, Flink, airflow, Pyspark, FastAPI.
+🧙🏻‍♂️ **MLOps | CI/CD**: GIT, Pytest, Github Actions, MLflow.
 
-⛓️ **Ciberscurity**
+🧠 **Machine / Deep Learning:** Scikit Learn, Azure Machine Learning, Pytorch, Tensorflow/Keras, MXnet, RNN, CNN, OpenCV, Word2Vec, Huggingface, Langchain.
 
-## Estudios:
+☁️ **Cloud computing, Big Data:** Azure, AWS essentials, Kafka, Flink, airflow, Mage.ai, Pyspark, FastAPI.
 
-Estudio mayormente de manera autodidacta, mediante libros, haciendo casos prácticos, certificaciones financiadas por la UE y otros cursos en plataformas online como Udemy, Microsoft Learn y Coursera.
+⛓️ **Seguridad y explicabilidad, impacto social de la IA**
+
+## **Estudios:**
+
+Estudio mayormente de manera autodidacta, mediante libros, realizando casos prácticos, certificaciones UE y otros cursos en plataformas online como Udemy, Microsoft Learn y Coursera.
 
 [Certificaciones :octicons-link-external-24:](certifications.md)

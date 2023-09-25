@@ -16,7 +16,7 @@ La continuación de la introducción a la librería de análisis de datos Polars
 ---
 ## **Causal Impact**
 
-[<img src="https://cdn3.iconfinder.com/data/icons/tiny-charts-and-graphs/32/flat_line_graph-512.png"  width="90" height="90" align="left">](2022/2022-10-12-causal_impact.ipynb)
+<img src="https://cdn3.iconfinder.com/data/icons/tiny-charts-and-graphs/32/flat_line_graph-512.png"  width="90" height="90" align="left">
 *CausalImpact* creado por Google estima el impacto de una intervención en una serie temporal.<br>
 [Continue reading ➔](2022/2022-10-12-causal_impact.ipynb)
 
