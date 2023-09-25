@@ -1,13 +1,14 @@
 # **Acerca de Mi**
-Soy Ricardo, un desarrollador junior de IA especializado en Machine learning y deep learning. Mi objetivo es hacer estas técnicas de IA accesibles y prácticas.
 
-Me motiva la curiosidad y el deseo de trabajar en proyectos que usen tecnologías nuevas como IA generativa, aprendizaje automático, análisis de datos e inteligencia de negocios para ayudar a las personas a tomar mejores decisiones y mejorar servicios.
+Soy Ricardo, un desarrollador junior de IA especializado en Machine learning y deep learning. Mi objetivo es hacer estas técnicas sean accesibles y prácticas para todos.
 
-Mi aspiración profesional se basa en aplicar estas técnicas con curiosidad, ética y responsabilidad, buscando mejorar positivamente los sistemas. Disfruto desarrollando mi carrera como consecuencia natural de esto.
+Motivado por la curiosidad y el deseo de trabajar en proyectos que usen tecnologías exponenciales como IA generativa, aprendizaje automático, análisis de datos e inteligencia de negocios para ayudar a las personas a tomar mejores decisiones y mejorar servicios.
 
-Me interesa conocer el mundo a través de datos y análisis, influir positivamente en la adopción de la IA, y que respete la libertad y los derechos de las personas, utilizandola al servicio de la evolución humana. Con esta misión clara, puedo promover su uso en objetivos empresariales, sociales y personales, comprender las motivaciones humanas y del mercado y complementarlas con nuevas tecnologías.
+Mi aspiración profesional se basa en aplicar estas técnicas con curiosidad, ética y responsabilidad, buscando mejorar positivamente los sistemas en donde intervenga. Es algo que disfruto y desarrollar mi carrera es consecuencia natural de ello.
 
-Un **Data scientist actualizado** debe ser polivalente y generalista, abarcando toda la cadena de datos desde la obtención, hasta el modelado y aprendizaje automático para obtener conclusiones basadas en información.
+Me interesa conocer el mundo a través de datos y análisis, influir positivamente en la adopción de la IA, y que respete la libertad y los derechos de las personas, utilizandola al servicio de la evolución humana. ^^Con esta visión clara^^, me interesa promover su uso en objetivos empresariales, sociales e individuales, comprendiendo las necesidades de los usuarios para complementarlas con nuevas tecnologías.
+
+Un **Data scientist actualizado** debe ser polivalente y generalista, pudiendo participar en todo el ciclo de vida de los datos desde su obtención, hasta el modelado con aprendizaje automático para obtener conclusiones basadas en información.
 
 ## **Skills | Interest**
 
