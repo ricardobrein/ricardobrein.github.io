@@ -14,14 +14,13 @@
 
 ## ^^**About me**^^
 
-Ricardo enjoys working with tools related to `Data engineering, statistics, and applied Machine Learning` to tackle real-world **users and business
-**. His goal is to **build** a professional and **^^Full-stack^^** path in **Data**, understanding the entire lifecycle and plan and build robust **data system**.   
+I enjoy working with tools related to **Data engineering**, applied **Machine Learning** and **statistics** to tackle real-world users and business needs. I'm moving towards build a full-stack path in data by understanding the entire data pipeline & lifecycle. Planning, build and maintain, data infraestructure and machine learning models. In short, I aims to master the entire data field.
 
 **He is committed to:**
 
 - Self-taught long-life learning.
 - ^^Spread the word^^, Adding value to the AI community in [Español](https://ricardobrein.hashnode.dev) coming: [Youtube channel](https://youtube.com/@ricardodata)
-- Thinking of AI as a tool to elevate human freedom and performance, crafting solutions that bring happiness, and leading the next step in the evolution of human consciousness, applying ML with integrity and curiosity.
+- Thinking of AI as a tool to elevate human freedom and performance, crafting solutions that bring happiness and leading the next step in the evolution of human consciousness, with integrity and curiosity.
 
 When he's keyboard isn't clacking away, you'll find him with León🦁, working, walking or rambling in the analog world.
 
