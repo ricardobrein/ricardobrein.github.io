@@ -3,7 +3,7 @@
 <div style="text-align: center;">
   <img src="images/yo.png" width="200" alt="Ricardo">
   <p style="font-size: 1.2rem;">
-    <strong>Machine Learning | AI | Cloud | Junior Developer</strong>
+    <strong>Machine Learning | AI | Cloud | Data</strong>
   </p>
   <p style="margin-top: 20px;">
     <a href="https://git.io/typing-svg">
@@ -14,7 +14,7 @@
 
 ## ^^**About me**^^
 
-I enjoy working with tools related to **Data engineering**, applied **Machine Learning** and **statistics** to tackle real-world users and business needs. I'm moving towards build a full-stack path in data by understanding the entire data pipeline & lifecycle. Planning, build and maintain, data infraestructure and machine learning models. In short, I aims to master the entire data field.
+I really enjoy working with tools related to **Data pipelines**, **Machine Learning** and **Data science in general**, My goal its to make AI accesible for everyone, and create solutions that impact in human, industry, and bussines performance. In short, I'm moving towards build a full-stack path in data. Planning, build and maintain data infraestructure and machine learning models. 
 
 **He is committed to:**
 

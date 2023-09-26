@@ -1,12 +1,14 @@
 # **Acerca de Mi**
 
-Soy Ricardo, un desarrollador de IA, principalmente de Machine learning. Mi objetivo es hacer estas técnicas sean accesibles y prácticas para todos. Creo que **Data scientist actualizado** debe ser multidisciplinar y generalista, pudiendo participar en todo el ciclo de vida de los datos.
+Soy desarrollador entusiasta de IA, principalmente de Machine learning. Mi objetivo es hacer estas técnicas sean accesibles y prácticas para todos. Creo que el **Data science** moderno puede ser multidisciplinar y general, de manera que se pueda participar en cualqueir etapa del ciclo de vida del dato.
 
-Motivado por la curiosidad y el deseo de aplicar conocimientos de tecnologías exponenciales como IA generativa, aprendizaje automático, análisis de datos e inteligencia de negocios, para contribuir en la toma de mejores decisiones y mejorar servicios.
+Motivado por la curiosidad y lo estimulante que es para mi cuando estoy utilizando estas herramientas de IA generativa, aprendizaje automático, análisis de datos y arquitectura big data.
 
-^^Planificar, construir y mantener sistemas de datos robustos y escalables^^, desde el diseño de bases de datos, ingesta, infraestructura, procesos ETL/ELT, hasta la creación de modelos de ML, monitoreo de rendimiento, calidad de datos y mejores prácticas de seguridad. **Es algo que disfruto y desarrollar mi carrera es consecuencia natural de ello.**
+Me gustaria basar mi profesión en planificar, construir y mantener sistemas y aplicaciones de datos que sean accesibles para todos. diseñar, ingesta de datos, infraestructura, procesos ETL/ELT, hasta la puesta en marcha de modelos en producción y monitoreo de rendimiento cuidanod la calidad de los datos y mejores prácticas de seguridad. 
 
-Me interesa conocer el mundo a través de datos y su análisis, además, influir positivamente en la adopción de la IA, utilizandola al servicio de la evolución humana. ^^Con esta visión clara^^, me interesa promover su uso en objetivos empresariales, sociales e individuales, comprendiendo las necesidades de los usuarios para complementarlas con nuevas tecnologías.
+**Hacer estas cosas es algo que disfruto y desarrollar mi carrera es una consecuencia natural de ello.**
+
+Me interesa conocer el mundo a través de datos y aportar herramientas que sean útiles basadas en su análisis, además, influir positivamente en la adopción de la IA, utilizandola al servicio de la evolución humana. **Con esta visión clara**, me interesa promover su uso en objetivos empresariales, sociales e individuales.
 
 ## **Skills | Interest**
 
